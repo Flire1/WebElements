@@ -17,7 +17,7 @@ body {
     border-bottom-left-radius: 15px;
 }
 
-#pages {
+.pages {
     margin-left: auto;
     margin-right: 15px;
     display: flex;
@@ -29,7 +29,7 @@ body {
     text-align: center;
 }
 
-.buttons {
+#buttons {
     border: none;
     width: 200px;
     height: 50px;
@@ -42,9 +42,13 @@ body {
     color: white;
 }
 
-.buttons:hover {
+#buttons:hover {
     background-color: white;
     cursor: pointer;
     box-shadow: 0 0 20px 10px white;
     color: black;
+}
+
+#title:hover {
+    cursor: pointer;
 }
