@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="css/code.css">
     <script src="js/index.js"></script>
     <script src="js/code.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
 </head>
 <body>
     <div class="topbar">
@@ -19,31 +24,32 @@
     </div>
 
     <div id="container">
-            
         <div id="preview">
-            Preview
+            <h3 style="margin-top: 0;">Preview</h3>
         </div>
 
         <div id="html">
-            html
-            <code>
-                This is html code
-            </code>
+            <h3 style="margin-top: 0;">html</h3>
+<pre style="margin-top: 0;"><code class="language-html">
+
+</code></pre>
         </div>
 
         <div id="css">
-            css
-            <code>
-                This is css code
-            </code>
+            <h3 style="margin-top: 0;">css</h3>
+<pre style="margin-top: 0;"><code class="language-css">
+
+</code></pre>
         </div>
 
         <div id="js">
-            js
-            <code>
-                This is js code
-            </code>
+            <h3 style="margin-top: 0;">javascript</h3>
+<pre style="margin-top: 0;"><code class="language-javascript">
+
+</code></pre>
         </div>
     </div>
+
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
