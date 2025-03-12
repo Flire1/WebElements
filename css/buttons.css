@@ -1,0 +1,44 @@
+#underbar {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: linear-gradient(to bottom, #696969, #000000);
+    width: 325px;
+    height: 350px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.button-container {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 200px;
+    border-radius: 15px;
+    position: absolute;
+    top: 15px;
+}
+
+#seecode {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    transition: box-shadow 0.3s ease;
+}
+
+#seecode:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+}
