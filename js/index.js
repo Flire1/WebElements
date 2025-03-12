@@ -6,6 +6,6 @@ doc.addEventListener('DOMContentLoaded', () => {
     });
 
     doc.getElementById('buttons').addEventListener('click', () => {
-        window.location.href = '/buttons.html';
+        window.location.href = 'buttons.html';
     });
 });
