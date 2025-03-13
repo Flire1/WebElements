@@ -81,4 +81,31 @@ document.addEventListener('DOMContentLoaded', () => {
 }`,
         js: ""
     });
+
+    set('button-4', {
+        html: `<button id="clickme">Click Me!</button>`,
+        css: `
+#clickme {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 1000;
+    border: 5px solid white;
+    border-radius: 15px;
+    background-color: #000000;
+    color: white;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px white;
+}
+
+#clickme:hover {
+    cursor: pointer;
+}
+
+#clickme:active {
+    transform: translate(5px, 5px);
+    box-shadow: none;
+}`,
+        js: ""
+    });
 });
