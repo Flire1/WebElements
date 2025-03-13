@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         html: `<button id="clickme">Click Me!</button>`,
         css: `
 #clickme {
-    width: 60%;
+    width: 200px;
     height: 50px;
     font-size: 20px;
     font-weight: 1000;
@@ -34,6 +34,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
 #clickme:active {
     transform: scale(0.9);
+}`,
+        js: ""
+    });
+
+    set('button-2', {
+        html: `<button id="hoverme">Hover Me!</button>`,
+        css: `
+#hoverme {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 1000;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: #000000;
+    color: white;
+    transition: box-shadow 0.3s ease;
+}
+
+#hoverme:hover {
+    box-shadow: 0 0 20px black;
+    cursor: pointer;
 }`,
         js: ""
     });

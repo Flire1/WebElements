@@ -48,8 +48,8 @@
     box-shadow: 0 0 20px 5px rgb(255, 255, 255);
 }
 
-#clickme {
-    width: 60%;
+#button-1-p {
+    width: 200px;
     height: 50px;
     font-size: 20px;
     font-weight: 1000;
@@ -60,13 +60,30 @@
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, border 0.3s ease;
 }
 
-#clickme:hover {
+#button-1-p:hover {
     background-color: white;
     color: black;
     border: 5px solid black;
     cursor: pointer;
 }
 
-#clickme:active {
+#button-1-p:active {
     transform: scale(0.9);
+}
+
+#button-2-p {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 1000;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: #000000;
+    color: white;
+    transition: box-shadow 0.3s ease;
+}
+
+#button-2-p:hover {
+    box-shadow: 0 0 20px black;
+    cursor: pointer;
 }
