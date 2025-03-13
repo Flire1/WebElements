@@ -59,4 +59,26 @@ document.addEventListener('DOMContentLoaded', () => {
 }`,
         js: ""
     });
+
+    set('button-3', {
+        html: `<button id="hoverme">Hover Me!</button>`,
+        css: `
+#hoverme {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 1000;
+    border: none;
+    border-radius: 15px;
+    background-color: #000000;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#hoverme:hover {
+    background-color: rgb(90, 90, 90);
+    cursor: pointer;
+}`,
+        js: ""
+    });
 });
